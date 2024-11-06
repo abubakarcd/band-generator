@@ -2,7 +2,7 @@
 for(var i =0 ;i<document.querySelectorAll(".drum").length;i++){
     document.querySelectorAll("button")[i].addEventListener("click", getclicked);//to access all buttons
    
-}
+}//here function ends
  
 function getclicked(){//funtion to check for sound event 
     var latter = this.innerHTML;    
