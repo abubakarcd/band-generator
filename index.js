@@ -50,6 +50,11 @@ function getclicked(){//funtion to check for sound event
             audio.play();
 
             break;
+            case "j":
+                var audio = new Audio('./sounds/snare.mp3');
+               audio.play();
+   
+               break;
      
         default:
             
